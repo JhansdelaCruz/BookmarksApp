@@ -1,0 +1,268 @@
+{
+  "documentacion": [
+    {
+      "name": "Mozilla Developer Network",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
+      "link": "https://developer.mozilla.org/es/",
+      "img": "./acsses/img/web-mdn.png"
+    },
+    {
+      "name": "World Wide Web Consortium",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
+      "link": "https://www.w3.org/",
+      "img": "./acsses/img/web-w3c.png"
+    },
+    {
+      "name": "HTML",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
+      "link": "https://html.spec.whatwg.org/",
+      "img": "./acsses/img/web-html.png"
+    }
+  ],
+  "stockImages": [
+    {
+      "name": "Freepik",
+      "link": "https://www.freepik.com/",
+      "icon": "https://cdn.worldvectorlogo.com/logos/freepik.svg"
+    },
+    {
+      "name": "Unsplash",
+      "link": "https://unsplash.com/es",
+      "icon": "https://cdn.worldvectorlogo.com/logos/unsplash-2.svg"
+    },
+    {
+      "name": "Pixabay",
+      "link": "https://pixabay.com/es/",
+      "icon": "https://cdn.worldvectorlogo.com/logos/pixabay.svg"
+    },
+    {
+      "name": "Pexels",
+      "link": "https://www.pexels.com/es-es/",
+      "icon": "https://images.pexels.com/static/challengeorganizer/158/image/static-818.png"
+    }
+  ],
+  "iconsPacks": [
+    {
+      "name": "css.gg",
+      "link": "https://css.gg/",
+      "icon": "./acsses/img/icon/icon-css.avif"
+    },
+    {
+      "name": "Iconsax",
+      "link": "https://iconsax.io/",
+      "icon": "./acsses/img/icon/icon-iconsax.svg"
+    },
+    {
+      "name": "Feathericons",
+      "link": "https://feathericons.com/",
+      "icon": "./acsses/img/icon/icon-feathericons.png"
+    },
+    {
+      "name": "Google Fonts",
+      "link": "https://fonts.google.com/icons",
+      "icon": "./acsses/img/icon/icon-GoogleFonts.svg"
+    },
+    {
+      "name": "SVG repo",
+      "link": "https://www.svgrepo.com/",
+      "icon": "./acsses/img/icon/icon-SVGrepo.jpg"
+    },
+    {
+      "name": "Fontawesome",
+      "link": "https://fontawesome.com/",
+      "icon": "./acsses/img/icon/icon-fontawesome.svg"
+    },
+    {
+      "name": "Flaticon",
+      "link": "https://www.flaticon.es/",
+      "icon": "./acsses/img/icon/icon-flaticon.png"
+    },
+    {
+      "name": "Icon icons",
+      "link": "https://icon-icons.com/es/",
+      "icon": "./acsses/img/icon/icon-iconIcons.webp"
+    }
+  ],
+  "font": [
+    {
+      "name": "Google Fonts",
+      "link": "https://fonts.google.com/",
+      "icon": "./acsses/img/fonts/icon-googleFonts.svg"
+    },
+    {
+      "name": "Fonts free",
+      "link": "https://fontsfree.net/",
+      "icon": "./acsses/img/fonts/icon-fontsFree.svg"
+    },
+    {
+      "name": "Fonts geek",
+      "link": "https://fontsgeek.com/",
+      "icon": "./acsses/img/fonts/icon-fontsGeek.png"
+    },
+    {
+      "name": "Font pair",
+      "link": "https://www.fontpair.co/",
+      "icon": "./acsses/img/fonts/icon-fontPair.svg"
+    },
+    {
+      "name": "Urbanfonts",
+      "link": "https://www.urbanfonts.com/free-fonts.htm",
+      "icon": "./acsses/img/fonts/icon-urbanfonts.png"
+    }
+  ],
+  "illustrations": [
+    {
+      "name": "unDraw",
+      "link": "https://undraw.co/illustrations",
+      "icon": "./acsses/img/illustrations/icon-unDraw.png"
+    },
+    {
+      "name": "Humaaans",
+      "link": "https://www.humaaans.com/",
+      "icon": "./acsses/img/illustrations/icon-humaaans.png"
+    }
+  ],
+  "threeDPacks": [
+    {
+      "name": "Toy Faces",
+      "link": "https://amritpaldesign.com/toy-faces",
+      "icon": "./acsses/img/3d/icon-toyFaces.png"
+    },
+    {
+      "name": "Handz Design",
+      "link": "https://www.handz.design/",
+      "icon": "./acsses/img/3d/icon-handzDesign.png"
+    },
+    {
+      "name": "IsometricClove",
+      "link": "https://isometriclove.com/",
+      "icon": "./acsses/img/3d/icon-isometricClove.png"
+    },
+    {
+      "name": "3D-Shapes-Pack",
+      "link": "https://dribbble.com/shots/3421366-3D-shapes-pack",
+      "icon": "./acsses/img/3d/icon-3D-Shapes-Pack.png"
+    },
+    {
+      "name": "BAM",
+      "link": "https://bamdesign.gumroad.com/l/bamillu",
+      "icon": "./acsses/img/3d/icon-BAM.webp"
+    },
+    {
+      "name": "Icon Scout",
+      "link": "https://iconscout.com/3ds",
+      "icon": "./acsses/img/3d/icon-iconScout.png"
+    },
+    {
+      "name": "BestPixels",
+      "link": "https://www.behance.net/bestpixels",
+      "icon": "./acsses/img/3d/icon-bestPixels.png"
+    }
+  ],
+  "tools": {
+    "image": [
+      {
+        "name": "iLoveIMG",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
+        "link": "https://www.iloveimg.com/es",
+        "icon": "https:__.png"
+      },
+      {
+        "name": "Formito",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
+        "link": "https://formito.com/tools",
+        "icon": "https://__.png"
+      },
+      {
+        "name": "Polotno Studio",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
+        "link": "https://studio.polotno.com/",
+        "icon": "https://__.png"
+      }
+    ],
+    "color": [
+      {
+        "name": "myColor",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
+        "link": "https://mycolor.space/",
+        "icon": "https:__.png"
+      },
+      {
+        "name": "Coolors",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
+        "link": "https://coolors.co/",
+        "icon": "https://__.png"
+      },
+      {
+        "name": "Adobe Color",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
+        "link": "https://color.adobe.com/es/create/color-wheel",
+        "icon": "https://__.png"
+      },
+      {
+        "name": "Color Hunt",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
+        "link": "https://colorhunt.co/",
+        "icon": "https:__.png"
+      },
+      {
+        "name": "Alphredo",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
+        "link": "https://alphredo.app/",
+        "icon": "https://__.png"
+      },
+      {
+        "name": "Material Design",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
+        "link": "https://material.io/resources/color/",
+        "icon": "https://__.png"
+      }
+    ],
+    "EditoresOnline": [
+      {
+        "name": "CodePen",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
+        "link": "https://codepen.io/",
+        "icon": "https:__.png"
+      },
+      {
+        "name": "Jsfiddle",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
+        "link": "https://jsfiddle.net/",
+        "icon": "https://__.png"
+      },
+      {
+        "name": "PlayCode",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
+        "link": "https://playcode.io/",
+        "icon": "https://__.png"
+      },
+      {
+        "name": "Codesanbox",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
+        "link": "https://playcode.io/",
+        "icon": "https:__.png"
+      },
+      {
+        "name": "StackBlitz",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
+        "link": "https://stackblitz.com/",
+        "icon": "https://__.png"
+      }
+    ],
+    "mayTools": [
+      {
+        "name": "10015 tools",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
+        "link": "https://10015.io/",
+        "icon": "https:__.png"
+      },
+      {
+        "name": "Dev Tools",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
+        "link": "https://smalldev.tools/",
+        "icon": "https://__.png"
+      }
+    ]
+  }
+}
