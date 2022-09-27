@@ -23,22 +23,22 @@
     {
       "name": "Freepik",
       "link": "https://www.freepik.com/",
-      "icon": "https://cdn.worldvectorlogo.com/logos/freepik.svg"
+      "icon": "./acsses/img/images/icon-freepik.svg"
     },
     {
       "name": "Unsplash",
       "link": "https://unsplash.com/es",
-      "icon": "https://cdn.worldvectorlogo.com/logos/unsplash-2.svg"
+      "icon": "./acsses/img/images/icon-unsplash.svg"
     },
     {
       "name": "Pixabay",
       "link": "https://pixabay.com/es/",
-      "icon": "https://cdn.worldvectorlogo.com/logos/pixabay.svg"
+      "icon": "./acsses/img/images/icon-pixabay.svg"
     },
     {
       "name": "Pexels",
       "link": "https://www.pexels.com/es-es/",
-      "icon": "https://images.pexels.com/static/challengeorganizer/158/image/static-818.png"
+      "icon": "./acsses/img/images/icon-pexels.png"
     }
   ],
   "iconsPacks": [

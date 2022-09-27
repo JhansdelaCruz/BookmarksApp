@@ -6,14 +6,6 @@ const stockFont = document.querySelector("#stockFont>div");
 const illustrations = document.querySelector("#illustrations>div");
 const threeDPacks = document.querySelector("#threeDPacks>div");
 
-/*
-Cesar>> En esta parte demoré buscando la manera de acceder al archivo json
-porque esto:
-  const dataJson = require("./js/db.json");
-solo me funcionaba con nodo y no lograba obtener los datos para modificar el DOM,
-al final encontré esta solución, ¿Qué opinas, es la adecuada o en qué forma
-me recomiendas para realizarlo?
-*/
 const xhttp = new XMLHttpRequest();
 xhttp.open("GET", "./js/db.json", true);
 xhttp.send();
@@ -30,6 +22,14 @@ xhttp.onreadystatechange = function () {
   }
 };
 
+// async function dbJson() {
+//   const url = "./js/db.json";
+//   const response = await fetch(url);
+//   const result = await response.json();
+//   console.log(result);
+// }
+// dbJson();
+
 //Titulo en el header
 const escribir = (texto = "", tiempo = 200, elemento = "") => {
   let arrayCaracteres = texto.split("");
@@ -45,11 +45,6 @@ const escribir = (texto = "", tiempo = 200, elemento = "") => {
 };
 escribir("Bookmark", 200, headerLogo);
 
-/* 
-Cesar>> ¿Es válido crear estructuras HTML de esta manera o es mejor
-utilizar createElement y agregar o modificar los atributos y clases con los métodos correspondientes?
-Como me recomiendas realizarlo?
-*/
 function createSquareSection(item) {
   return `
       <div class="stockImage--card__item">
@@ -143,7 +138,7 @@ function paintThreeD(datos) {
 }
 function paintTools(datos) {
   //en esta parte se llamará a una funcion con EventListener para mostrar un modal con la imformacion
-  console.log(datos);
+  datos;
 }
 
 /*Lo que aun falta por implemtar
@@ -152,3 +147,65 @@ function paintTools(datos) {
   -colocar animaciones
 
 */
+
+//MENU
+const navbar = document.getElementById("navbar");
+const menuIcon = document.getElementById("menuIcon");
+const arrowRight = document.getElementById("arrowRight");
+const arrowLeft = document.getElementById("arrowLeft");
+const desbloqueado = document.getElementById("unlock");
+const bloqueado = document.getElementById("lock");
+
+function openMenu() {
+  navbar.classList.remove("navbar--animation__close");
+  navbar.classList.add("navbar--animation__open");
+  arrowLeft.classList.remove("hidden");
+  arrowRight.classList.add("hidden");
+}
+function closeMenu() {
+  navbar.classList.remove("navbar--animation__open");
+  navbar.classList.add("navbar--animation__close");
+  arrowRight.classList.remove("hidden");
+  arrowLeft.classList.add("hidden");
+}
+function unlock() {
+  desbloqueado.classList.remove("hidden");
+  bloqueado.classList.add("hidden");
+  bloqueado.removeAttribute("name");
+}
+function lock() {
+  desbloqueado.classList.add("hidden");
+  bloqueado.classList.remove("hidden");
+  bloqueado.setAttribute("name", "lock");
+}
+
+navbar.querySelector("ul").addEventListener("click", (e) => {
+  // e.preventDefault();
+  if (e.target && e.target.tagName === "A") {
+    if (bloqueado.name !== "lock") {
+      closeMenu();
+    }
+  }
+});
+menuIcon.addEventListener("click", (e) => {
+  // e.preventDefault();
+  if (e.target && e.target.tagName === "svg") {
+    switch (e.target.id) {
+      case "targetArrowRight":
+        openMenu();
+        break;
+      case "targetArrowLeft":
+        closeMenu();
+        unlock();
+        break;
+      case "targetUnlock":
+        lock();
+        break;
+      case "targetLock":
+        unlock();
+        break;
+      default:
+        break;
+    }
+  }
+});
