@@ -48,11 +48,6 @@
       "icon": "./acsses/img/icon/icon-css.avif"
     },
     {
-      "name": "Iconsax",
-      "link": "https://iconsax.io/",
-      "icon": "./acsses/img/icon/icon-iconsax.svg"
-    },
-    {
       "name": "Feathericons",
       "link": "https://feathericons.com/",
       "icon": "./acsses/img/icon/icon-feathericons.png"
@@ -60,7 +55,7 @@
     {
       "name": "Google Fonts",
       "link": "https://fonts.google.com/icons",
-      "icon": "./acsses/img/icon/icon-GoogleFonts.svg"
+      "icon": "./acsses/img/icon/icon-googleFonts.svg"
     },
     {
       "name": "SVG repo",
@@ -76,6 +71,11 @@
       "name": "Flaticon",
       "link": "https://www.flaticon.es/",
       "icon": "./acsses/img/icon/icon-flaticon.png"
+    },
+    {
+      "name": "Iconsax",
+      "link": "https://iconsax.io/",
+      "icon": "./acsses/img/icon/icon-iconsax.svg"
     },
     {
       "name": "Icon icons",
@@ -160,108 +160,108 @@
     }
   ],
   "tools": {
-    "image": [
+    "toolsImage": [
       {
         "name": "iLoveIMG",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
         "link": "https://www.iloveimg.com/es",
-        "icon": "https:__.png"
-      },
-      {
-        "name": "Formito",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
-        "link": "https://formito.com/tools",
-        "icon": "https://__.png"
+        "icon": "./acsses/img/tools/image/iloveimg.svg"
       },
       {
         "name": "Polotno Studio",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
         "link": "https://studio.polotno.com/",
-        "icon": "https://__.png"
+        "icon": "./acsses/img/tools/image/studioPolotno.png"
+      },
+      {
+        "name": "Formito",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
+        "link": "https://formito.com/tools",
+        "icon": "./acsses/img/tools/image/formito.png"
       }
     ],
-    "color": [
+    "toolsColor": [
       {
         "name": "myColor",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
         "link": "https://mycolor.space/",
-        "icon": "https:__.png"
+        "icon": "./acsses/img/tools/color/myColor.png"
       },
       {
         "name": "Coolors",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
         "link": "https://coolors.co/",
-        "icon": "https://__.png"
+        "icon": "./acsses/img/tools/color/coolors.png"
       },
       {
         "name": "Adobe Color",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
         "link": "https://color.adobe.com/es/create/color-wheel",
-        "icon": "https://__.png"
+        "icon": "./acsses/img/tools/color/adobeColor.png"
       },
       {
         "name": "Color Hunt",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
         "link": "https://colorhunt.co/",
-        "icon": "https:__.png"
+        "icon": "./acsses/img/tools/color/colorhunt.png"
       },
       {
         "name": "Alphredo",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
         "link": "https://alphredo.app/",
-        "icon": "https://__.png"
+        "icon": "./acsses/img/tools/color/alphredo.png"
       },
       {
         "name": "Material Design",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
         "link": "https://material.io/resources/color/",
-        "icon": "https://__.png"
+        "icon": "./acsses/img/tools/color/materialDesign.png"
       }
     ],
-    "EditoresOnline": [
+    "toolsEditors": [
       {
         "name": "CodePen",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
         "link": "https://codepen.io/",
-        "icon": "https:__.png"
+        "icon": "./acsses/img/tools/editor/codepen.png"
       },
       {
         "name": "Jsfiddle",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
         "link": "https://jsfiddle.net/",
-        "icon": "https://__.png"
+        "icon": "./acsses/img/tools/editor/jsfiddle.png"
       },
       {
         "name": "PlayCode",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
         "link": "https://playcode.io/",
-        "icon": "https://__.png"
+        "icon": "./acsses/img/tools/editor/playcode.png"
       },
       {
         "name": "Codesanbox",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
-        "link": "https://playcode.io/",
-        "icon": "https:__.png"
+        "link": "https://codesandbox.io/",
+        "icon": "./acsses/img/tools/editor/codesandbox.png"
       },
       {
         "name": "StackBlitz",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
         "link": "https://stackblitz.com/",
-        "icon": "https://__.png"
+        "icon": "./acsses/img/tools/editor/stackblitz.png"
       }
     ],
-    "mayTools": [
+    "toolsMany": [
       {
         "name": "10015 tools",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
         "link": "https://10015.io/",
-        "icon": "https:__.png"
+        "icon": "./acsses/img/tools/more/100L5.png"
       },
       {
         "name": "Dev Tools",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magni aspernatur qui eaque, vitae totam nobis incidunt soluta obcaecati.",
         "link": "https://smalldev.tools/",
-        "icon": "https://__.png"
+        "icon": "./acsses/img/tools/more/smalldev.png"
       }
     ]
   }

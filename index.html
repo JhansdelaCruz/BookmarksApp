@@ -122,7 +122,7 @@
             </svg>
           </li>
           <li>
-            <a href="#mayTools">+ Tools</a>
+            <a href="#tools">+ Tools</a>
             <svg>
               <rect x="0" y="0" fill="none"></rect>
             </svg>
@@ -130,9 +130,9 @@
         </ul>
       </div>
     </nav>
-    <div class="container__centerX head">
+    <div class="head container__centerX">
       <div class="box">
-        <section class="container--head">
+        <section class="container--head container__center">
           <div class="container__center">
             <div>
               <h1>¿Buscas herramientas para tu proyecto Web?</h1>
@@ -185,22 +185,38 @@
           <h2>3D Packs</h2>
           <div class="stock--card"></div>
         </article>
-        <article id="mayTools" class="stock">
+        <article id="tools" class="stock">
           <h2>+ Tools</h2>
           <div class="stock--card">
-            <div class="stockMore--card__item">
+            <div
+              id="toolsImage"
+              onclick="openModal(this)"
+              class="stockMore--card__item"
+            >
               <span class="material-symbols-outlined">image</span>
               <h3>Image</h3>
             </div>
-            <div class="stockMore--card__item">
+            <div
+              id="toolsColor"
+              onclick="openModal(this)"
+              class="stockMore--card__item"
+            >
               <span class="material-symbols-outlined">palette</span>
               <h3>Color</h3>
             </div>
-            <div class="stockMore--card__item">
+            <div
+              id="toolsEditors"
+              onclick="openModal(this)"
+              class="stockMore--card__item"
+            >
               <span class="material-symbols-outlined">terminal</span>
               <h3>Online editors</h3>
             </div>
-            <div class="stockMore--card__item">
+            <div
+              id="toolsMany"
+              onclick="openModal(this)"
+              class="stockMore--card__item"
+            >
               <span class="material-symbols-outlined">construction</span>
               <h3>Many tools</h3>
             </div>
@@ -208,7 +224,17 @@
         </article>
       </div>
     </main>
-
+    <div id="modal" class="modal container__centerX hidden">
+      <div class="box container__center">
+        <section class="modal--section">
+          <div class="modal--head">
+            <h2 id="modalTitle"></h2>
+            <button id="closeModal"></button>
+          </div>
+          <div id="modalMain" class="modal--main"></div>
+        </section>
+      </div>
+    </div>
     <footer class="container__centerX">
       <div class="box container__center">
         <p>

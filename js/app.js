@@ -6,6 +6,7 @@ const stockFont = document.querySelector("#stockFont>div");
 const illustrations = document.querySelector("#illustrations>div");
 const threeDPacks = document.querySelector("#threeDPacks>div");
 
+const MODAL = {};
 const xhttp = new XMLHttpRequest();
 xhttp.open("GET", "./js/db.json", true);
 xhttp.send();
@@ -18,10 +19,9 @@ xhttp.onreadystatechange = function () {
     paintFonts(bdJson.font);
     paintIllustrations(bdJson.illustrations);
     paintThreeD(bdJson.threeDPacks);
-    paintTools(bdJson.tools);
+    MODAL.tools = bdJson.tools;
   }
 };
-
 // async function dbJson() {
 //   const url = "./js/db.json";
 //   const response = await fetch(url);
@@ -136,10 +136,10 @@ function paintThreeD(datos) {
     threeDPacks.innerHTML += createSquareSection(item);
   }
 }
-function paintTools(datos) {
-  //en esta parte se llamará a una funcion con EventListener para mostrar un modal con la imformacion
-  datos;
-}
+// function paintTools(datos) {
+//   datos;
+//   // console.log(datos.toolsImage);
+// }
 
 /*Lo que aun falta por implemtar
   -menu de navegacion
@@ -180,7 +180,6 @@ function lock() {
 }
 
 navbar.querySelector("ul").addEventListener("click", (e) => {
-  // e.preventDefault();
   if (e.target && e.target.tagName === "A") {
     if (bloqueado.name !== "lock") {
       closeMenu();
@@ -188,7 +187,6 @@ navbar.querySelector("ul").addEventListener("click", (e) => {
   }
 });
 menuIcon.addEventListener("click", (e) => {
-  // e.preventDefault();
   if (e.target && e.target.tagName === "svg") {
     switch (e.target.id) {
       case "targetArrowRight":
@@ -208,4 +206,67 @@ menuIcon.addEventListener("click", (e) => {
         break;
     }
   }
+});
+
+/* +TOOLS */
+const modal = document.getElementById("modal");
+function createSectionModal(item) {
+  return `
+  <article>
+    <div>
+      <img src="${item.icon}" alt="Icon ${item.name}" />
+    </div>
+    <section>
+      <h3>${item.name}</h3>
+      <p>
+        ${item.description}
+      </p>
+      <a target="_blank" href="${item.link}"></a>
+    </section>
+  </article>
+  `;
+}
+
+function paintTools(datos) {
+  const modalll = document.getElementById("modalMain");
+  modalll.innerHTML = "";
+  for (let item of datos) {
+    modalll.innerHTML += createSectionModal(item);
+  }
+}
+
+function setDataModal(id) {
+  if (MODAL.tools.hasOwnProperty(id)) {
+    const datos = MODAL.tools[id];
+    paintTools(datos);
+  }
+}
+function openModal(e) {
+  const modalTitle = document.getElementById("modalTitle");
+  const idTools = e.getAttribute("id");
+  const titleCard = e.lastElementChild.textContent;
+  modalTitle.innerText = titleCard;
+  switch (idTools) {
+    case "toolsImage":
+      setDataModal(idTools);
+      break;
+    case "toolsColor":
+      setDataModal(idTools);
+      break;
+    case "toolsEditors":
+      setDataModal(idTools);
+      break;
+    case "toolsMany":
+      setDataModal(idTools);
+      break;
+    default:
+      console.log("no existe");
+      break;
+  }
+  modal.classList.remove("hidden");
+}
+
+const closeModal = document.getElementById("closeModal");
+closeModal.addEventListener("click", (e) => {
+  modal.classList.add("hidden");
 });
